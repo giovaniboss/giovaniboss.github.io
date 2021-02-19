@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Melhor das Noites de Nashville</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            width: 50%;
+            background-color: red;
+        }
+
+        .shows {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .show-info {
+            width: 80%;
+            background: green;
+            display: flex;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="shows">
+            <div class="show-info">
+                <span class="time">25 mar</span>
+                <p>Show A</p>
+            </div>
+
+            <div class="show-info">
+                Show 2.
+            </div>
+
+            <div class="show-info">
+                Show 3.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
