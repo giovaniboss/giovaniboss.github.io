@@ -1,61 +1,548 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Melhor das Noites de Nashville</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>O Melhor das Noites de Nashville</title>
+  <meta name="description" content="">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        .content {
-            width: 50%;
-            background-color: red;
-        }
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Cousine:400,700|Montserrat:300,400,800|Anton' rel='stylesheet' type='text/css'>
 
-        .shows {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
+  <link rel="stylesheet" href="/styles/vendor/bootstrap.css">
+  <link rel="stylesheet" href="/styles/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="/styles/vendor/superslides.css">
+  <link rel="stylesheet" href="/styles/vendor/owl.carousel.css">
+  <link rel="stylesheet" href="/styles/vendor/owl.transitions.css">
+  <link rel="stylesheet" href="/styles/vendor/flickity.min.css">
+  <link rel="stylesheet" href="/styles/vendor/swipebox.min.css">
+  <link rel="stylesheet" href="/styles/vendor/TimeCircles.css">
 
-        .show-info {
-            width: 80%;
-            background: green;
-            display: flex;
-            margin-top: 1rem;
-        }
-    </style>
+  <link rel="stylesheet" href="/styles/main.css">
+
+  <link rel="stylesheet" href="/styles/colors/color-yellow.css">
+  <link rel="stylesheet" href="/styles/colors/color-lightblue.css">
+  <link rel="stylesheet" href="/styles/colors/color-purple.css">
+  <link rel="stylesheet" href="/styles/colors/color-green.css">
+  <link rel="stylesheet" href="/styles/colors/color-militar.css">
+  <link rel="stylesheet" href="/styles/colors/color-caqui.css">
+  <link rel="stylesheet" href="/styles/colors/color-red.css">
+
+  <!-- Intro Slider -->
+  <link rel="stylesheet" href="/styles/intro-slider.css">
+  <link rel="stylesheet" href="/styles/vendor/animate.min.css">
+
+  <script src="/scripts/vendor/modernizr.js"></script>
 </head>
-<body>
-    <div class="content">
-        <div class="shows">
-            <div class="show-info">
-                <span class="time">25 mar</span>
-                <p>Show A</p>
-            </div>
+<body data-spy="scroll" data-target="#navbar-muziq" data-offset="80" class="dark-version">
 
-            <div class="show-info">
-                Show 2.
-            </div>
-
-            <div class="show-info">
-                Show 3.
-            </div>
-        </div>
+  <!-- LOADER -->
+  <div id="mask">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
     </div>
+  </div>
+
+  
+    <!-- HEADER -->
+  <header id="jHeader">
+    <nav class="navbar navbar-default " role="navigation">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Expandir navegação</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#anchor00"><img src="images/logo-branco.png" alt="logo"></a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="/">Home</a></li>
+          <li class=""><a href="/">Projeto</a></li>
+          <li class=""><a href="/calendario">Calendário</a></li>
+          <li class=""><a href="/">Contato</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+
+    <section class="intro full-width jIntro" id="anchor00">
+    <div id="intro-carousel" class="carousel slide carousel-fade" data-pause="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#intro-carousel" data-slide-to="1"></li>
+        <li data-target="#intro-carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <!-- First slide -->
+        <div class="item active intro-fullscreen">
+          <!-- Modify Image BG -->
+          <div class="fill" style="background-image:url('images/slider/slider_1.jpg');"></div>
+          <div class="carousel-caption intro-center">
+            <h1 data-animation="animated fadeIn" class="primary-title">Giovani Boss</h1>
+            <h2 data-animation="animated fadeIn" class="subtitle-text">O Melhor das Noites de Nashville</h2>
+            <div class="voffset50"></div>
+            
+          </div>
+        </div><!-- /.item -->
+
+        <!-- Second slide -->
+        <div class="item">
+          <!-- Modify Image BG -->
+          <div class="fill" style="background-image:url('images/slider/slider_2.jpg');"></div>
+          <div class="carousel-caption p-intro-animate">
+            <p data-animation="animated fadeIn">Sucessos inesquecíveis que trazem<br><span>Nashville</span> para sua casa.</p>
+            <a class="intro-link" href="#" data-animation="animated fadeIn">Conheça o projeto <i class="fa  fa-angle-right"></i></a>
+          </div>
+        </div><!-- /.item -->
+
+        <!-- Third slide -->
+        <div class="item title-alt">
+          <!-- Modify Image BG -->
+          <div class="fill" style="background-image:url('images/slider/slider_3.jpg');"></div>
+          <div class="carousel-caption">
+            <p data-animation="animated fadeInUp">Uma <emph>live</emph> com<br>os maiores sucessos</p>
+            <div data-animation="animated fadeInUp" class="animate-btn-alt">
+              <a class="btn square stay-in-touch-submit" href="#">27/02 às 21h no YT</a>
+            </div>
+          </div>
+        </div><!-- /.item -->
+
+      </div><!-- /.carousel-inner -->
+    </div><!-- /.carousel -->
+  </section>
+
+    <!-- PLAYER -->
+  <div class="player horizontal">
+    <div class="container">
+      <div class="info-album-player">
+        <div class="album-cover" style="background: url('images/cover-player.jpg') no-repeat center" id="bg-image3"></div>
+        <p class="album-title">Covers</p>
+        <p class="artist-name">Giovani Boss</p>
+      </div>
+      <div class="player-content">
+        <audio preload></audio>
+        <ol class="playlist">
+          <li><a href="#" data-src="mp3/Maybe.mp3">Bradley Cooper - Maybe It's Time</a></li>
+          <li><a href="#" data-src="mp3/Carrying.mp3">George Strait - Carrying Your Love With Me</a></li>
+          <li><a href="#" data-src="mp3/Free.mp3">Lynyrd Skynyrd - Free Bird (feat. Caio Gutierri)</a></li>
+        </ol>
+        <div class="nextprev">
+          <span class="prev">anterior</span>
+          <span class="next">seguinte</span>
+        </div>
+        <span class="btnloop">contínuo</span>
+      </div>
+    </div>
+  </div>
+
+    <!-- LATEST ALBUM -->
+  <section class="section latest-album dark" id="anchor01">
+    <div class="container">
+      <div class="voffset70"></div>
+      <div class="title-wrapper">
+        <h2 class="title">NOSSO TRABALHO</h2>
+      </div>
+      <div class="voffset80"></div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="info-album">
+            <div class="cover">
+              <img src="images/capa-gio.jpg" alt="">
+            </div>
+            
+            <p class="artist">Giovani Boss</p>
+            <p class="artist">Erich Besnyi</p>
+            <p class="artist">Maurício Santos da Silveira</p>
+            <p class="artist">Raul Pacheco</p>
+            
+            
+            
+            <div class="voffset80"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="disc-tracklist">
+            <audio preload id="playlist_newalbum"></audio>
+            <ol class="playlist1">
+              
+              <li>
+                <a href="#" data-src="mp3/Maybe.mp3">
+                  <div class="track-info">
+                    <p class="track-title">Maybe It&#39;s Time</p>
+                    <p class="track-album">Bradley Cooper</p>
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a href="#" data-src="mp3/Free.mp3">
+                  <div class="track-info">
+                    <p class="track-title">Free Bird (feat. Caio Gutierri)</p>
+                    <p class="track-album">Lynyrd Skynyrd</p>
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a href="#" data-src="mp3/Beautiful.mp3">
+                  <div class="track-info">
+                    <p class="track-title">Beautiful Crazy (live)</p>
+                    <p class="track-album">Luke Combs</p>
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a href="#" data-src="mp3/HOLY.mp3">
+                  <div class="track-info">
+                    <p class="track-title">H.O.L.Y.</p>
+                    <p class="track-album">Florida Georgia Line</p>
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a href="#" data-src="mp3/Because.mp3">
+                  <div class="track-info">
+                    <p class="track-title">Because of You</p>
+                    <p class="track-album">Teresa Wade</p>
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a href="#" data-src="mp3/Carrying.mp3">
+                  <div class="track-info">
+                    <p class="track-title">Carrying Your Love With Me</p>
+                    <p class="track-album">George Strait</p>
+                  </div>
+                </a>
+              </li>
+              
+            </ol>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- STAY IN TOUCH -->
+  <section class="section stay-in-touch inverse-color parallax-section" data-parallax-image="images/fundo.jpg" id="anchor02">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="voffset190"></div>
+          <p class="titulo">Fique<br> ligado</p>
+          <div class="voffset20"></div>
+          <p class="cousine subtitulo">Inscreva-se para receber as últimas novidades.</p>
+          <div class="voffset30"></div>
+          <label for="stay-in-touch-email">SEU E-MAIL</label>
+          <form class="" action="index.html" method="post">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8">
+                <input  id="stay-in-touch-email" type="text" name="stay-in-touch-email" value="">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <input class="btn square stay-in-touch-submit" type="submit" name="button" value="EU QUERO">
+              </div>
+            </div>
+          </form>
+          <div class="voffset190"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    
+
+    <!-- NEXT SHOW -->
+<section class="section next-show" id="anchor05" id="anchor05">
+  <div class="container">
+    <div class="voffset150"></div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="title-wrapper">
+          <h2 class="next-show-title">Próximo Show</h2>
+        </div>
+      </div>
+    </div>
+    <div class="voffset30"></div>
+    <hr>
+    <div class="voffset20"></div>
+    <p class="text-center next-show-subtitle">O Melhor das Noites de Nashville começa em</p>
+    <div class="voffset90"></div>
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class='countdown' data-date="2021-02-28"></div>
+      </div>
+    </div>
+    <div class="voffset150"></div>
+  </div>
+</section>
+
+    <!-- UPCOMMING EVENTS -->
+<section class="section container-fluid full-width upcomming-events-list inverse-color">
+  <div class="">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h4 class="upcomming-events-list-title montserrat extra-bold">agenda de eventos</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li>
+            <div>
+              <p class="date-event">27 <span>Fev</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #1</span>
+                Nossa primeira <emph>live</emph> do projeto!
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p class="date-event">12 <span>Mar</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #2</span>
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <p class="date-event">20 <span>Mar</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #3</span>
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="more">
+            <div>
+              <p class="date-event">28 <span>Mar</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #4</span>
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="more">
+            <div>
+              <p class="date-event">09 <span>Abr</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #5</span>
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="more">
+            <div>
+              <p class="date-event">17 <span>Abr</span></p>
+              <p class="name">
+                <span>O Melhor das Noites de Nashville #6</span>
+              </p>
+              <p class="venue">
+                local
+                <span>YouTube, 21h</span>
+              </p>
+              <p class="buy">
+                <span href="#" class="btn square icon disabled"><i class="fa fa-tv" disabled></i> ir para a live</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p class="view-all-events">
+          <a id="more-events" href="#" class="btn square">Ver todos os eventos</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    
+
+    
+    
+
+    <!-- NEW VIDEO -->
+<div class="section new-video">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <div class="voffset70"></div>
+        <div class="title-wrapper">
+          <h2 class="title inverse">ÚLTIMO VÍDEO</h2>
+        </div>
+        <div class="voffset70"></div>
+        <iframe src="https://player.vimeo.com/video/513897699?color=ffffff" width="1060" height="596" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="voffset70"></div>
+  </div>
+</div>
+
+    
+
+    <!-- CONTACTS -->
+  <section class="section inverse-color contact" id="anchor08">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="voffset70"></div>
+          <div class="title-wrapper">
+            <h2 class="title inverse">siga-nos &amp; contato</h2>
+          </div>
+          <div class="voffset100"></div>
+        </div>
+      </div>
+      <div class="row no-gutter">
+        <div class="col-xs-12 col-md-4 text-center">
+          <h2 class="title-follow">CONTATO</h2>
+          <div class="voffset40"></div>
+          <hr class="hidden-xs">
+          <div class="voffset40"></div>
+          <p class="name">Giovani Boss</p>
+          <p class="phone">&nbsp;</p>
+          <p class="email"><a href="mailto:contato@nashvillenights.com.br">contato@nashvillenights.com.br</a></p>
+          <div class="voffset40"></div>
+
+          <hr class="hidden-xs">
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <h2 class="title-follow">SHOWS</h2>
+          <div class="voffset40"></div>
+          <hr class="hidden-xs">
+          <div class="voffset40"></div>
+          <p class="name">José Antonio</p>
+          <p class="phone"><a href="https://wa.me/5511961892920">(11) 96189-2920</a></p>
+          <p class="email"><a href="mailto:jose@scutieri.com.br">jose@scutieri.com.br</a></p>
+          <div class="voffset40"></div>
+          <hr class="hidden-xs">
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <h2 class="title-follow">MÍDIA</h2>
+          <div class="voffset40"></div>
+          <hr class="hidden-xs">
+          <div class="voffset40"></div>
+          <p class="name">Andre Santos</p>
+          <p class="phone"><a href="https://wa.me/5511970745422">(11) 97074-5422</a></p>
+          <p class="email"><a href="mailto:eu@andresantos.com.br">eu@andresantos.com.br</a></p>
+          <div class="voffset40"></div>
+          <hr class="hidden-xs">
+        </div>
+        
+      </div>
+
+      <div class="row social">
+        <a href="https://www.facebook.com/giovanibossoficial/" target="_blank"><img src="images/social/facebook.png" alt="Facebook @giovanibossoficial"></a>
+        <a href="https://instagram.com/giovanibossoficial/" target="_blank"><img src="images/social/instagram.png" alt="Instagram @giovanibossoficial"></a>
+        <a href="https://www.youtube.com/channel/UCTpmN1Yt0uw_HNzoPejk0qQ/" target="_blank"><img src="images/social/youtube.png" alt="Youtube - Giovani Boss"></a>
+      </div>
+
+      <div class="voffset80"></div>
+
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="copy">© 2021. Todos os direitos reservados.</p>
+      
+    </div>
+  </footer>
+    
+
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+
+  <script src="/scripts/vendor/jquery.js"></script>
+  <script src="/scripts/vendor/jquery.superslides.min.js"></script>
+  <script src="/scripts/vendor/flickity.pkgd.js"></script>
+  <script src="/scripts/vendor/audio.min.js"></script>
+  <script src="/scripts/vendor/twitterFetcher_min.js"></script>
+  <script src="/scripts/vendor/isotope.pkgd.min.js"></script>
+  <script src="/scripts/vendor/jquery.swipebox.min.js"></script>
+  <script src="/scripts/vendor/TimeCircles.js"></script>
+  <script src="/scripts/vendor/owl.carousel.min.js"></script>
+  <script src="/scripts/vendor/jquery.parallax.min.js"></script>
+
+  <script src="/scripts/discography.js"></script>
+  <script src="/scripts/news.js"></script>
+  <script src="/scripts/main.js"></script>
+
+  <script src="/scripts/vendor/bootstrap.js"></script>
+  <!-- Intro Slider -->
+  <script src="/scripts/intro-slider.js"></script>
+  <!-- Countdown Next Show -->
+  <script src="/scripts/vendor/countdown.js"></script>
 </body>
 </html>
