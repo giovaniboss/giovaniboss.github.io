@@ -11,8 +11,7 @@
 
 	    if(seconds<=0 || isNaN(seconds)){
 	    	this.hide();
-			console.log('Fudeu')
-	    	return this;
+			return this;
 	    }
 
 	    var days=Math.floor(seconds/86400);
